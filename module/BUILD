@@ -3,8 +3,10 @@ load("//module:py.bzl", "py_extension")
 py_extension(
     name = "math",
     srcs = ["math.cc"],
-    deps = ["@pybind11",
-    "//third_party/python_runtime:headers"],
+    deps = [
+        "//third_party/python_runtime:headers",
+        "@pybind11",
+    ],
 )
 
 py_test(
