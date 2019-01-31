@@ -16,4 +16,4 @@ INFO: Build completed successfully, 11 total actions
 INFO: Build completed successfully, 11 total actions
 ```
 
-Special thanks to jart@ for guidance.
+Special thanks to jart@ for guidance as well as the TensorFlow team for python runtime headers.
